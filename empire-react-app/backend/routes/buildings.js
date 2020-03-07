@@ -1,5 +1,5 @@
 const router = require('express').Router();
-let Building = require('../models/building.model');
+let Building = require('../models/building.model.js');
 
 router.route('/').get((req,res) =>{
 
@@ -17,7 +17,7 @@ router.route('/add').post((req,res) => {
     const irr = req.body.irr;
     const address_1 = req.body.address_1;
     const zip_code = req.body.zip_code;
-    const city = req.bosy.city;
+    const city = req.body.city;
     const state = req.body.state;
     const country = req.body.country;
     const property_type = req.body.property_type;
@@ -31,6 +31,12 @@ router.route('/add').post((req,res) => {
         .then(() => res.json())
         .catch(err => res.status(400).json('Error: '+err));
 
+});
+
+router.route('/:building_name').get((req, res) => {
+    Building.find({building_name: req.params.building_name})
+    .then(building => res.json(building))
+    .catch(err => res.status(400).json('Error '+ err));
 });
 
 module.exports = router;

@@ -30,9 +30,16 @@ router.route('/add').post((req,res) => {
     const newUser = new User({username, password, first_name, last_name, address_1, zip_code, city, state, country, phone_number, employeer, company_role, license, user_type});
 
     newUser.save()
-        .then(() => res.json())
+        .then(() => res.json(users))
         .catch(err => res.status(400).json('Error: '+err));
 
+});
+
+
+router.route('/:username').get((req, res) => {
+    User.find({username: req.params.username})
+    .then(user => res.json(user))
+    .catch(err => res.status(400).json('Error '+ err));
 });
 
 module.exports = router;
