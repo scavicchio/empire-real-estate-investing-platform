@@ -2,7 +2,7 @@
 
 - Empire is developed and maintained by the `empire` team in HackNYU 2020
 
-- Empire is an application that allows 
+- Empire is an application that allows...
 
 - The frontend that the user interacts with is built upon the React JS Framework. The webpage's backend will be developed primarily in NodeJS. It will use MongoDB as its database.
 
