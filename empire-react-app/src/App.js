@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+
+import { Alert } from "shards-react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "shards-ui/dist/css/shards.min.css"
+import './App.css';import { Card, CardBody, CardTitle, CardSubtitle } from "shards-react";
 
 function App() {
   return (
@@ -8,8 +12,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          testing reaction
+          
         </p>
+        <div className="example">
+        {/* <Button theme="success">Success</Button> */}
+        </div>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -23,4 +32,16 @@ function App() {
   );
 }
 
-export default App;
+function CardBodyTitleSubtitleExample() {
+  return (
+    <Card>
+      <CardBody>
+        <CardTitle>Card Title</CardTitle>
+        <CardSubtitle>Card subtitle</CardSubtitle>
+        Nunc quis nisl ac justo elementum sagittis in quis justo.
+      </CardBody>
+    </Card>
+  );
+}
+
+export default CardBodyTitleSubtitleExample;
