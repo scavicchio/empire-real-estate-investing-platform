@@ -62,7 +62,7 @@ export default class NavExample extends React.Component {
         <Collapse open={this.state.collapseOpen} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink active href="/developer/home">
+              <NavLink active href="/">
                 For Investor
               </NavLink>
             </NavItem>
@@ -73,7 +73,7 @@ export default class NavExample extends React.Component {
             </NavItem>
 
             <NavItem style={{position: "absolute",right:20}}>
-            <NavLink active href="/user/add">
+            <NavLink active href="/developer/add">
                 Log-in
               </NavLink>
             </NavItem>

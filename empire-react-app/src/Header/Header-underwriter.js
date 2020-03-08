@@ -67,13 +67,13 @@ export default class NavExample extends React.Component {
               </NavLink>
             </NavItem>
             <NavItem>
-            <NavLink active href="/underwriter/home">
+            <NavLink active href="/">
                 For Investor
               </NavLink>
             </NavItem>
 
             <NavItem style={{position: "absolute",right:20}}>
-            <NavLink active href="/user/add">
+            <NavLink active href="/underwriter/add">
                 Log-in
               </NavLink>
             </NavItem>

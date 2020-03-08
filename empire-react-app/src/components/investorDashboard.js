@@ -279,9 +279,9 @@ export default class LandingPage extends Component{
                     <Button theme="light" outline="flase" style={{position: "absolute", right: 0, marginRight: 195, marginTop: 40,  backgroundColor: "white"}}>
                     More >
                     </Button>
-                    <p style={{marginLeft: 50,marginTop:125,fontSize: 24}}>
-                    Secondary Market 
-                    </p>
+                    <p style={{paddingLeft: 50,paddingTop:25,fontSize: 24}}>Secondary Markets</p>
+                        
+                        
                     <div style={{paddingTop: 25, height:750}}>
                         <Container className="dr-example-container">
                         <Row>

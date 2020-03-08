@@ -60,7 +60,9 @@ export default class LandingPage extends Component{
                           Equity-only
                           </p>
                           <p >
-                            After completing your assignment, you will receive payment for your work instantly in the platform, which you can then cash out to your bank account.
+                          Unlike typical real estate investment deals which mix both debt and equity, Empire is tailored to equity-only developments.
+<p></p><p><b>Why is that?</b></p>
+For each financial instrument in the capital stack, underwriting must be performed. The more underwriting, the higher the underwriting costs become. In simpler terms, equity-only deals mean that more money stays in your pocket.
                           </p>
                         </CardBody>
                         </Card>
@@ -68,12 +70,12 @@ export default class LandingPage extends Component{
       
                       <Col>
                         <Card>
-                        <CardBody>
+                        <CardBody style={{ height: 465}}>
                           <p style={{color: "black", fontSize: 20,fontWeight: "bold",marginBottom: 25, height: 60}}>
                           Independent, licensed underwriters                          
                           </p>
                           <p >
-                            After completing your assignment, you will receive payment for your work instantly in the platform, which you can then cash out to your bank account.
+                          Independent, licensed underwriters review the investment opportunities to provide their expert assessment of the development. Only approved projects make it onto the platform for you to invest in, guaranteeing quality projects.
                           </p>
                         </CardBody>
                         </Card>
@@ -81,12 +83,12 @@ export default class LandingPage extends Component{
       
                       <Col>
                         <Card>
-                        <CardBody>
+                        <CardBody style={{ height: 465}}>
                           <p style={{color: "black", fontSize: 20,fontWeight: "bold",marginBottom: 25, height: 60}}>
                             Liquidity
                           </p>
                           <p >
-                            After completing your assignment, you will receive payment for your work instantly in the platform, which you can then cash out to your bank account.
+                          Unlike regular real estate which locks assets for multiple years, Empire offers a secondary trading market, which allows for investors to buy and sell portions of already funded real estate developments.
                           </p>
                         </CardBody>
                         </Card>
@@ -97,6 +99,7 @@ export default class LandingPage extends Component{
                 </div>
       
                 <div style={{paddingTop: 25, height:800}}>
+                <h2 style={{marginTop: 50, marginLeft: 50, marginBottom:50, fontWeight:"bold"}}>Sample Properties</h2>
             <Container className="dr-example-container">
                 <Row>
                 <Col>
@@ -270,7 +273,11 @@ export default class LandingPage extends Component{
                         </Row>
                         </Container>
                     </div>
+
+                    <p style={{height:150}}></p>
             </div>
+
+            
             
           );
       }

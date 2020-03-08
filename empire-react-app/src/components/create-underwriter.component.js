@@ -204,7 +204,7 @@ export default class CreateUsers extends Component{
         <Row>
           <Col sm="12" lg="6">
             <Card className="Card" style={{width: 500}}>
-              <CardHeader style={{color: "black",backgroundColor: "white",textAlign: "left",height: 50}} >Register as an Underwriter</CardHeader>
+              <CardHeader style={{color: "black",backgroundColor: "white",textAlign: "left",height: 50}} >Underwriter</CardHeader>
               <CardBody style={{height: 580}}>
                 <form >
                   <div>
