@@ -1,20 +1,16 @@
+
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css"
 import Header from './Header/Header';
 import { Button } from "shards-react";
 import { Container, Row, Col } from "shards-react";
-import { Card, CardBody } from "shards-react";
+import { Card, CardBody, CardImg, ListGroup, ListGroupItem } from "shards-react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { StickyContainer, Sticky } from 'react-sticky';
 
-//import Navbar from "./components/navbar.component";
-import UsersList from "./components/users-list-component.js";
-import CreateUser from "./components/create-user.component";
 
-import CreateDeveloper from "./components/create-developer.component";
-import CreateUnderwriter from "./components/create-underwriter.component";
 
 import NewDevelopment from "./components/create-new-development.component";
 
@@ -26,10 +22,12 @@ import BuildingsList from "./components/buildings-list.component";
 import LandingPage from './components/landing-page.component';
 
 
+
 class App extends Component{
 
   render(){
     return (
+
       
        <Router>
         
@@ -52,12 +50,11 @@ class App extends Component{
 
 
       </Router>
-      
+
       
       
     )
   }
-
 }
 
 export default App;
