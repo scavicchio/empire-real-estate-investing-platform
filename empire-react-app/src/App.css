@@ -10,12 +10,13 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    max-width: 15vh;
   }
 }
 
 .App-header {
-  background-color: black;
+
+  background-color: #1D1D1B;
   background-image: url('register_background.jpg');
     height: 100%;
     background-position: center;
@@ -49,12 +50,7 @@
   color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MainSection{
+  height: 100vh;
 }
 
