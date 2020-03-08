@@ -20,7 +20,7 @@ const userSchema = new Schema({
     phone_number: {type: Number, required: true, trim: true},
     employeer: {type: String, required: true, trim: true},
     company_role: {type: String, required: true, trim: true},
-    license: {type: String, required: true, trim: true}, 
+    license: {type: String, trim: true}, 
     user_type: {type: String, required: true, trim: true},
 
 });

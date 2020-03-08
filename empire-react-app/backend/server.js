@@ -22,10 +22,10 @@ connection.once('open', () => {
 });
 
 const usersRouter = require('./routes/users.js');
-const buildingsRouter = require('./routes/buildings.js');
+//const buildingsRouter = require('./routes/buildings.js');
 
 app.use('/users', usersRouter);
-app.use('/buildings',buildingsRouter); 
+//app.use('/buildings',buildingsRouter); 
 
 
 app.listen(port, () => {
