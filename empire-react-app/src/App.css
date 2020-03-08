@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -14,23 +15,42 @@
 }
 
 .App-header {
+
   background-color: #1D1D1B;
+  background-image: url('register_background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    alt:"image";
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(24px + 2vmin);
   color: white;
 }
-
+.Card{
+  min-width: 500px;
+  align-self: left;
+}
+.Div{
+  display: flex;
+  flex-direction: row;
+}
+.Button{
+  background-color: #000000;
+  color: black;
+}
+.App-h-inner{
+  font-size: small;
+}
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
 
 .MainSection{
   height: 100vh;
 }
-
-
 

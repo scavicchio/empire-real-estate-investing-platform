@@ -26,13 +26,23 @@ router.route('/add').post((req,res) => {
     const license = req.body.license;
     const user_type = req.body.user_type;
 
+        
 
     const newUser = new User({username, password, first_name, last_name, address_1, zip_code, city, state, country, phone_number, employeer, company_role, license, user_type});
 
+    console.log(newUser);
+    
     newUser.save()
-        .then(() => res.json())
+        .then(() => res.json("user added"))
         .catch(err => res.status(400).json('Error: '+err));
 
+});
+
+
+router.route('/:username').get((req, res) => {
+    User.find({username: req.params.username})
+    .then(user => res.json(user))
+    .catch(err => res.status(400).json('Error '+ err));
 });
 
 module.exports = router;
