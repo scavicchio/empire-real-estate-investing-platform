@@ -11,7 +11,7 @@ class DeveloperLaunch extends Component{
       return (
         <div className="App">
             <Header />
-            <div className="App-header3" style={{height:450}}>
+            <div style={{height:450}}>
               
               <h1 style={{marginLeft: 50, marginTop: 130,fontWeight: "bold", fontSize: 50}}>Simplifying Equity Raising</h1>
               <p style={{marginLeft: 135, maxWidth:1000,color: "black", fontSize: 24,marginBottom: 70}}>
