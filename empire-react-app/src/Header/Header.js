@@ -1,6 +1,7 @@
 import React from "react";
 //import { faSearch } from "@fortawesome/free-solid-svg-icons";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { Link } from 'react-router-dom';
 import {
   Navbar,
   NavbarToggler,
@@ -55,7 +56,7 @@ export default class NavExample extends React.Component {
     return (
       <Navbar type="dark" theme="dark" expand="md">
         <img src={require('./logo.jpg')}  style={{height:50 }}/>
-        <NavbarBrand href="#">Empire Platform</NavbarBrand>
+        <NavbarBrand href="/" >Empire Platform</NavbarBrand>
         <NavbarToggler onClick={this.toggleNavbar} />
 
         <Collapse open={this.state.collapseOpen} navbar>
@@ -72,7 +73,7 @@ export default class NavExample extends React.Component {
             </NavItem>
 
             <NavItem style={{position: "absolute",right:20}}>
-            <NavLink active href="#">
+            <NavLink active href="/user/add">
                 Log-in
               </NavLink>
             </NavItem>

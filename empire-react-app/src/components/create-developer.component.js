@@ -1,11 +1,12 @@
 import React from 'react';
 import {Component} from 'react';
 import axios from 'axios';
+import Header from '../Header/Header';
 //import logo from './logo.svg';
 import backgroundImage from '../register_background.jpg';
 import '../App.css';
 //import { Alert } from "shards-react";
-import { Form, FormInput, FormGroup } from "shards-react";
+import { Form, FormInput, FormGroup, Container, Row, Col } from "shards-react";
 import {
   Card,
   CardHeader,
@@ -192,8 +193,13 @@ export default class CreateUsers extends Component{
     render(){
         return(
             <div className="App" >
+                <Header />
                 
             <header className="App-header">
+
+            <Container className="dr-example-container">
+        <Row>
+          <Col sm="12" lg="6">
             <Card className="Card" style={{width: 500}}>
               <CardHeader style={{color: "black",backgroundColor: "white",textAlign: "left",height: 50}} >Register as a Developer</CardHeader>
               <CardBody style={{height: 580}}>
@@ -264,9 +270,41 @@ export default class CreateUsers extends Component{
           </form>
         </CardBody>
       </Card>
+
+      </Col>
+            <Col>
+      <Card className="Card" style={{width: 500}}>
+        <CardHeader style={{color: "black",backgroundColor: "white",textAlign: "left"}} >Login</CardHeader>
+        <CardBody style={{height: 210, paddingTop: 10}}>
+            
+            <Form >
+            <FormGroup style={{height: 50,}}>
+                <FormInput id="#email" placeholder="Email" />
+            </FormGroup>
+            <FormGroup style={{height: 50}}>
+                <FormInput type="password" id="#password" placeholder="Password" />
+            </FormGroup>
+            </Form>
+            <div className='Text'>
+            <Button theme="dark" style={{position: "absolute", bottom: "1", right: "0", marginRight: 30}} >Login</Button>          
+            </div>
+        </CardBody>
+        </Card>
+        </Col>
+        </Row>
+      </Container>
         
       </header>
+      
     </div>
+
+
+
+  
+
+
+
+
   );
 
 
