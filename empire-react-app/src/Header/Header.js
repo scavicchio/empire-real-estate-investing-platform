@@ -54,9 +54,9 @@ export default class NavExample extends React.Component {
 
   render() {
     return (
-      <Navbar type="dark" theme="dark" expand="md">
+      <Navbar type="dark" expand="md" style={{color: "white", backgroundColor: "#1F1F1B"}}>
         <img src={require('./logo.jpg')}  style={{height:50 }}/>
-        <NavbarBrand href="/" >Empire Platform</NavbarBrand>
+        <NavbarBrand href="/" style={{fontSize: 24}}>Empire Platform</NavbarBrand>
         <NavbarToggler onClick={this.toggleNavbar} />
 
         <Collapse open={this.state.collapseOpen} navbar>
@@ -77,7 +77,6 @@ export default class NavExample extends React.Component {
                 Log-in
               </NavLink>
             </NavItem>
-            
           </Nav>
         </Collapse>
         

@@ -10,15 +10,14 @@ class UnderwriterLaunch extends Component{
     return (
       <div className="App">
           <Header />
-          <div className="App-header" style={{height:420}}>
-            <h1 style={{marginLeft: 50, marginTop: 130,fontWeight: "bold"}}>Underwrite and appraise property</h1>
-            <h1 style={{marginLeft: 50, fontWeight: "bold"}}>developments near you</h1>
-            <Button href="/underwriter/add" theme="dark" style={{right:0, position:"absolute", marginRight: 165, marginTop:220}}>
+          <div className="App-header3" style={{height:420}}>
+            <h1 style={{marginLeft: -400, marginTop: -400,fontWeight: "bold",fontSize: 50, color: "white"}}>Underwrite and appraise property</h1>
+            <h1 style={{marginLeft: -650, fontWeight: "bold",fontSize: 50, color: "white"}}>developments near you</h1>
+            <Button href="/underwriter/add" theme="dark" style={{right:0, position:"absolute", marginRight: 165, marginTop:-50}}>
                 Get Started
             </Button>
           </div>
-          <div style={{height: 200, width: 1440,background:"linear-gradient(black,lightgrey)"}}>
-          </div>
+          
           <div style={{paddingTop: 25, height:800, backgroundColor: "lightgrey"}}>
             <h2 style={{marginTop: 170, marginLeft: 50, marginBottom:50,fontWeight: "bold"}}>The process in 3 simple steps</h2>
             <Container className="dr-example-container">

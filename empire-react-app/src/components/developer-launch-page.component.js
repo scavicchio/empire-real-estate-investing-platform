@@ -11,17 +11,21 @@ class DeveloperLaunch extends Component{
       return (
         <div className="App">
             <Header />
-            <div className="App-header" style={{height:450}}>
-              <h1 style={{marginLeft: 50, marginTop: 130,fontWeight: "bold"}}>Simplifying Equity Raising</h1>
-              <p style={{marginLeft: 50, maxWidth:1000,color: "black", fontSize: 24,marginBottom: 70}}>
+            <div className="App-header3" style={{height:450}}>
+              
+              <h1 style={{marginLeft: 50, marginTop: 130,fontWeight: "bold", fontSize: 50}}>Simplifying Equity Raising</h1>
+              <p style={{marginLeft: 135, maxWidth:1000,color: "black", fontSize: 24,marginBottom: 70}}>
               Raise finance for equity-only properties
               </p>
+              <Button href= "/developer/add" theme="dark" style={{right:0, position:"absolute", marginTop:-60, marginRight: 165 }}>
+                  Get Started
+              </Button>
               <Container style={{}}>
                 <Card style={{}}>
                   <CardBody style={{border: 0}}>
                     <div className="App-header">
-                    <h2 style={{ marginLeft: 50, fontSize: 25}}>Why equity only?</h2>
-                    <p style={{marginLeft: 50, maxWidth:1000,color: "black", fontSize: 20 }}>
+                    <h2 style={{ marginLeft: 50, fontSize: 25, fontWeight: "bold",marginTop: -560}}>Why equity only?</h2>
+                    <p style={{marginLeft: 50, maxWidth:600, fontSize: 24,color: "black", marginTop: 10}}>
                     Equity-only means you get to market faster, as you only have one round of underwriting.
                     In addition to being faster, having one round of underwriting also decreases your underwriting costs.
                     </p>
@@ -29,14 +33,12 @@ class DeveloperLaunch extends Component{
                   </CardBody>
                 </Card>
               </Container>
-              <Button href= "/developer/add" theme="dark" style={{right:0, position:"absolute", marginRight: 165, marginTop:25}}>
-                  Get Started
-              </Button>
+              
             </div>
             <div style={{height: 150, width: 1440,background:"linear-gradient(white,lightgrey)"}}>
             </div>
-            <div style={{paddingTop: 25, height:800, backgroundColor: "lightgrey"}}>
-              <h2 style={{marginTop: 170, marginLeft: 50, marginBottom:50,fontWeight: "bold"}}>The process in 3 simple steps</h2>
+            <div style={{paddingTop: 25, height:1100, backgroundColor: "lightgrey"}}>
+              <h2 style={{marginTop: 480, marginLeft: 50, marginBottom:50,fontWeight: "bold"}}>The process in 3 simple steps</h2>
               <Container className="dr-example-container">
                 <Row>
                   <Col>
@@ -49,8 +51,8 @@ class DeveloperLaunch extends Component{
                       Submit required personal information and your total investable assets.
                       Once approved, you will then be able to submit development requests, which require financial projections, property pictures and business plan pitch.
                       </p>
-                      <Button theme="dark" href= "/developer/add" style={{right:0, position:"absolute", marginRight: 40, marginBottom: 25}}>
-                          Get Started
+                      <Button href= "/developer/add" theme="dark" style={{right:0, position:"absolute", marginTop:-10, marginRight: 35 }}>
+                        Get Started
                       </Button>
                     </CardBody>
                     </Card>

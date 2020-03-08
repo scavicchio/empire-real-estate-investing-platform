@@ -19,8 +19,6 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 
-
-
 export default class CreateBuilding extends Component{
 
     constructor(props) {
@@ -45,28 +43,23 @@ export default class CreateBuilding extends Component{
     //const irr = req.body.irr;
     //const targeted_average_cash_yield = req.body.targeted_average_cash_yield;
     
-        
-        
-
         this.onSubmit = this.onSubmit.bind(this);
     
         this.state = {
-
-            building_name: '',
-            picture_url: '',
-            developer_name:'',
-            value: '',
-            cap_rate: '',
-            irr: '',
-            address_1:'',
-            zip_code:'',
-            city: '',
-            state: '',
-            country: '',
-            property_type: '',
-            investment_strategy: '',
-            targeted_average_cash_yield:''
-            
+          building_name: '',
+          picture_url: '',
+          developer_name:'',
+          value: '',
+          cap_rate: '',
+          irr: '',
+          address_1:'',
+          zip_code:'',
+          city: '',
+          state: '',
+          country: '',
+          property_type: '',
+          investment_strategy: '',
+          targeted_average_cash_yield:''
         }
       }
     
@@ -177,16 +170,12 @@ export default class CreateBuilding extends Component{
         })
       }
 
-
-
     render(){
         return(
             <div className="App" >
                 <Header />
                 
             <header className="App-header2">
-
-           
             <Card className="Card" style={{width: 500}}>
               <CardHeader style={{color: "black",backgroundColor: "white",textAlign: "left",height: 50}} >Submit New Development</CardHeader>
               <CardBody style={{height: 580}}>

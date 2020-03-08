@@ -37,9 +37,6 @@ class App extends Component{
 
       
        <Router>
-        
-        <br/>
-
         <Route path='/user/' exact component={UsersList} />
 
         <Route path='/buildings/add' exact component={NewDevelopment} />

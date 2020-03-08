@@ -19,8 +19,6 @@ const Building = props =>(
         <td> {props.building.property_type}</td>
         <td> {props.building.investment_strategy}</td>
         <td> {props.building.targeted_average_cash_yield}</td>
-
-
     </tr>
 
 
