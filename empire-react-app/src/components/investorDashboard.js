@@ -88,7 +88,386 @@ export default class LandingPage extends Component{
                         </Col>
                     </Row>
                 </Container>
-            </div>
+            
+
+            <h2 style={{paddingLeft: 50,paddingTop: 50,fontWeight: "bold",fontSize: 50}}>
+            MarketPlace 
+            </h2>
+            <p style={{paddingLeft: 50,paddingTop:25,fontSize: 24}}>
+            New Developments 
+            </p>
+            <div style={{paddingTop: 25, height:750}}>
+            <Container className="dr-example-container">
+                <Row>
+                <Col>
+                    <Card>
+                    <CardImg top src="https://images1.loopnet.com/i2/Qo72PTApBxjm8P8BRw54ek89kDhWfdBVAYRjKHcrf04/112/image.jpg" style={{height:233.3,width: 352}}/>
+                        <CardBody style={{height: 480}}>
+                        <h3>Building name</h3>
+                        <ListGroup>
+                            <ListGroupItem >
+                            <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                <Row>
+                                <Col style={{paddingLeft:0}}>Value</Col>
+                                <Col style={{textAlign: 'right', paddingRight:0}}>$1MM</Col>
+                                </Row>
+                            </Container>
+                            </ListGroupItem>
+
+                            <ListGroupItem >
+                            <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                <Row>
+                                <Col style={{paddingLeft:0}}>Projected IRR</Col>
+                                <Col style={{textAlign: 'right', paddingRight:0}}>13.3%</Col>
+                                </Row>
+                            </Container>
+                            </ListGroupItem>
+
+                            <ListGroupItem >
+                            <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                <Row>
+                                <Col style={{paddingLeft:0}}>Property Type</Col>
+                                <Col style={{textAlign: 'right', paddingRight:0}}>Office</Col>
+                                </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Investment Strategy</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Value add</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Target Average Cash Yield</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>4.2%</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+                                    </ListGroup>
+                                    <Button theme="dark" style={{position: "absolute", right: 0, marginRight: 30, marginTop: 10}}>
+                                    Invest >
+                                    </Button>
+                                </CardBody>
+                            </Card>
+                            </Col>
+
+                            <Col>
+                            <Card>
+                                <CardImg top src="https://images1.loopnet.com/i2/vtg885r-iD_SCdiGsoWVmH6RvHODzzgkEXl8GoAX4SE/112/image.jpg" />
+                                <CardBody style={{height: 480}}>
+                                    <h3>Building name</h3>
+                                    <ListGroup>
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Value</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>$1MM</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Projected IRR</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>13.3%</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Property Type</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Office</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Investment Strategy</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Value add</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Target Average Cash Yield</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>4.2%</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+                                    </ListGroup>
+                                    <Button theme="dark" style={{position: "absolute", right: 0, marginRight: 30, marginTop: 10}}>
+                                    Invest >
+                                    </Button>
+                                </CardBody>
+                                
+                            </Card>
+                            </Col>
+
+                            <Col>
+                            <Card>
+                                <CardImg top src="https://images1.loopnet.com/i2/eks8o5-6LFcta750CCvc07Dx2YVu6ER1_gh6vu4D8YA/112/image.jpg" />
+                                <CardBody style={{height: 480}}>
+                                    <h3>Building name</h3>
+                                    <ListGroup>
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Value</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>$1MM</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Projected IRR</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>13.3%</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Property Type</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Office</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Investment Strategy</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Value add</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Target Average Cash Yield</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>4.2%</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+                                    </ListGroup>
+                                    <Button theme="dark" style={{position: "absolute", right: 0, marginRight: 30, marginTop: 10}}>
+                                    Invest >
+                                    </Button>
+                                </CardBody>
+                            </Card>
+                            </Col>
+                        </Row>
+                        </Container>
+                    </div>
+                    <Button theme="light" outline="flase" style={{position: "absolute", right: 0, marginRight: 195, marginTop: 40,  backgroundColor: "white"}}>
+                    More >
+                    </Button>
+                    <p style={{marginLeft: 50,marginTop:125,fontSize: 24}}>
+                    Secondary Market 
+                    </p>
+                    <div style={{paddingTop: 25, height:750}}>
+                        <Container className="dr-example-container">
+                        <Row>
+                            <Col>
+                            <Card>
+                                <CardImg top src="https://images1.loopnet.com/i2/Qo72PTApBxjm8P8BRw54ek89kDhWfdBVAYRjKHcrf04/112/image.jpg" style={{height:233.3,width: 352}}/>
+                                <CardBody style={{height: 505}}>
+                                    <h3>Building name</h3>
+                                    <ListGroup>
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Cost Basis Value</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>$1MM</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Current Value</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>$1.1MM</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Property Type</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Office</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Investment Strategy</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Value add</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Target Average Cash Yield</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>4.2%</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+                                    </ListGroup>
+                                    <Button theme="dark" style={{position: "absolute", right: 0, marginRight: 30, marginTop: 10}}>
+                                    Invest >
+                                    </Button>
+                                </CardBody>
+                            </Card>
+                            </Col>
+
+                            <Col>
+                            <Card>
+                                <CardImg top src="https://images1.loopnet.com/i2/vtg885r-iD_SCdiGsoWVmH6RvHODzzgkEXl8GoAX4SE/112/image.jpg" />
+                                <CardBody style={{height: 505}}>
+                                    <h3>Building name</h3>
+                                    <ListGroup>
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Cost Basis Value</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>$1MM</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Current Value</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>1.2MM</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Property Type</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Office</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Investment Strategy</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Value add</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Target Average Cash Yield</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>4.2%</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+                                    </ListGroup>
+                                    <Button theme="dark" style={{position: "absolute", right: 0, marginRight: 30, marginTop: 10}}>
+                                    Invest >
+                                    </Button>
+                                </CardBody>
+                                
+                            </Card>
+                            </Col>
+
+                            <Col>
+                            <Card>
+                                <CardImg top src="https://images1.loopnet.com/i2/eks8o5-6LFcta750CCvc07Dx2YVu6ER1_gh6vu4D8YA/112/image.jpg" />
+                                <CardBody style={{height: 505}}>
+                                    <h3>Building name</h3>
+                                    <ListGroup>
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Cost Basis Value</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>$1MM</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Current Value</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>1.3MM</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Property Type</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Office</Col>
+                                        </Row>
+                                        </Container>
+                                    </ListGroupItem>
+
+                                    <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                        <Row>
+                                            <Col style={{paddingLeft:0}}>Investment Strategy</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>Value add</Col>
+                                        </Row>
+                                        </Container>
+                                        </ListGroupItem>
+
+                                        <ListGroupItem >
+                                        <Container className="dr-example-container" style={{paddingLeft:0}}>
+                                            <Row>
+                                            <Col style={{paddingLeft:0}}>Target Average Cash Yield</Col>
+                                            <Col style={{textAlign: 'right', paddingRight:0}}>4.2%</Col>
+                                            </Row>
+                                        </Container>
+                                        </ListGroupItem>
+                                        </ListGroup>
+                                        <Button theme="dark" style={{position: "absolute", right: 0, marginRight: 30, marginTop: 10}}>
+                                        Invest >
+                                        </Button>
+                                        </CardBody>
+                                        </Card>
+                                        </Col>
+                                        </Row>
+                                        </Container>
+                                        </div>
+                                        <Button theme="light" outline="flase" style={{position: "absolute", right: 0, marginRight: 195, marginTop: 65, marginBottom: 200,  backgroundColor: "white"}}>
+                                        More >
+                                        </Button>
+
+
+                                        </div>
             
           );
       }

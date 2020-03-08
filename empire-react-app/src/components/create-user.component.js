@@ -2,6 +2,8 @@ import React from 'react';
 import {Component} from 'react';
 import axios from 'axios';
 import Header from '../Header/Header';
+import  { Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 //import logo from './logo.svg';
 import backgroundImage from '../register_background.jpg';
 import '../App.css';
@@ -164,9 +166,16 @@ export default class CreateUsers extends Component{
         }
     
         //console.log(user);
+
+        const {history} =this.props;
     
         axios.post('http://localhost:5000/users/add', user)
-          .then(res => console.log(res.data));
+          .then(res => {console.log(res.data);
+          
+            window.location = '/user/dashboard';
+            
+          
+          });
     
         this.setState({
           username: '',
@@ -186,6 +195,9 @@ export default class CreateUsers extends Component{
             
 
         })
+
+
+
       }
 
 
@@ -265,7 +277,7 @@ export default class CreateUsers extends Component{
           
           <div className='Text'>
               <Button theme="dark" style={{position: "absolute", bottom: "1", right: "0", marginRight: 135}} type="cancel">Cancel</Button>
-            <Button onClick={this.onSubmit} theme="dark" style={{position: "absolute", bottom: "1", right: "0", marginRight: 30}} >Register </Button>          
+            <Button onClick={this.onSubmit} theme="dark"  style={{position: "absolute", bottom: "1", right: "0", marginRight: 30}} >Register </Button>          
           </div>
           </form>
         </CardBody>
@@ -286,7 +298,7 @@ export default class CreateUsers extends Component{
             </FormGroup>
             </Form>
             <div className='Text'>
-            <Button theme="dark" style={{position: "absolute", bottom: "1", right: "0", marginRight: 30}} >Login</Button>          
+            <Button href= "/user/dashboard" theme="dark" style={{position: "absolute", bottom: "1", right: "0", marginRight: 30}} >Login</Button>          
             </div>
         </CardBody>
         </Card>

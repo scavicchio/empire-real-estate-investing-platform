@@ -166,7 +166,9 @@ export default class CreateUsers extends Component{
         //console.log(user);
     
         axios.post('http://localhost:5000/users/add', user)
-          .then(res => console.log(res.data));
+          .then(res => {console.log(res.data);
+            window.location = '/developer/dashboard';
+        });
     
         this.setState({
           username: '',
@@ -286,7 +288,7 @@ export default class CreateUsers extends Component{
             </FormGroup>
             </Form>
             <div className='Text'>
-            <Button theme="dark" style={{position: "absolute", bottom: "1", right: "0", marginRight: 30}} >Login</Button>          
+            <Button theme="dark" href= '/developer/dashboard' style={{position: "absolute", bottom: "1", right: "0", marginRight: 30}} >Login</Button>          
             </div>
         </CardBody>
         </Card>

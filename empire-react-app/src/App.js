@@ -10,7 +10,10 @@ import { Container, Row, Col } from "shards-react";
 import { Card, CardBody, CardImg, ListGroup, ListGroupItem } from "shards-react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-
+import CreateDeveloper from "./components/create-developer.component";
+import CreateUnderwriter from "./components/create-underwriter.component";
+import CreateUser from "./components/create-user.component";
+import UsersList from "./components/users-list-component.js";
 
 import NewDevelopment from "./components/create-new-development.component";
 
@@ -21,6 +24,10 @@ import BuildingsList from "./components/buildings-list.component";
 //import CreateBuilding from "./components/create-building.component";
 import LandingPage from './components/landing-page.component';
 
+
+import InvestorDashboard from './components/investorDashboard';
+import UnderwriterDashboard from './components/underwriterDashboard';
+import DeveloperDashboard from './components/developer-dashboard';
 
 
 class App extends Component{
@@ -45,6 +52,11 @@ class App extends Component{
         <Route path='/developer/home' exact component={DeveloperLaunch} />
 
         <Route path='/buildings' exact component={BuildingsList} />
+
+
+        <Route path='/developer/dashboard' exact component={DeveloperDashboard} />
+        <Route path='/underwriter/dashboard' exact component={UnderwriterDashboard} />
+        <Route path='/user/dashboard' exact component={InvestorDashboard} />
         
         
 
