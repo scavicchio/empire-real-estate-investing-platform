@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css"
@@ -7,13 +8,39 @@ import { Container, Row, Col } from "shards-react";
 import { Card, CardBody, CardImg, ListGroup, ListGroupItem } from "shards-react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
+//import Navbar from "./components/navbar.component";
+import UsersList from "./components/users-list-component.js";
+import CreateUser from "./components/create-user.component";
 
+import CreateDeveloper from "./components/create-developer.component";
+import CreateUnderwriter from "./components/create-underwriter.component";
+
+import BuildingsList from "./components/buildings-list.component";
+import CreateBuilding from "./components/create-building.component";
 
 
 class App extends Component{
 
   render(){
     return (
+      
+       <Router>
+        
+        <br/>
+
+        <Route path='/user/' exact component={UsersList} />
+        <Route path='/user/add' exact component={CreateUser} />
+        
+        <Route path='/developer/add' exact component={CreateDeveloper} />
+        <Route path='/underwriter/add' exact component={CreateUnderwriter} />
+
+        <Route path='/buildings' exact component={BuildingsList} />
+        <Route path='/buildings/add' exact component={CreateBuilding} />
+        
+
+
+      </Router>
+      
       <div className="App">
           <Header />
 
@@ -270,6 +297,7 @@ class App extends Component{
       
     );
   }
+
 }
 
 export default App;

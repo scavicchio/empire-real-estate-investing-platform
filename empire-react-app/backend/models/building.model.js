@@ -7,6 +7,8 @@ const buildingSchema = new Schema({
         required: true,
         trim: true,
     },
+    picture_url: {type: String, required: true, trim: true},
+    developer_name: {type: String, required: true, trim: true},
     value: {type: Number, required: true, trim: true},
     cap_rate: {type: Number, required: true, trim: true},
     irr: {type: Number, required: true, trim: true},
