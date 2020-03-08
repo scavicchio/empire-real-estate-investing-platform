@@ -25,7 +25,7 @@ export default class LandingPage extends Component{
                     </Button>
                   </Link>
       
-                  <Button theme="dark" style={{right:0, position:"absolute", marginRight: 300, marginTop:100}}>
+                  <Button href="/user/add" theme="dark" style={{right:0, position:"absolute", marginRight: 300, marginTop:100}}>
                       Get Started
                     </Button>
                   

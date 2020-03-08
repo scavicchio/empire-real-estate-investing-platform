@@ -28,6 +28,7 @@ router.route('/add').post((req,res) => {
 
     const newBuilding = new Building({building_name, developer_name, picture_url, value, cap_rate, irr, address_1, zip_code, city, state, country, property_type, investment_strategy, targeted_average_cash_yield});
 
+    console.log(newBuilding);
     newBuilding.save()
         .then(() => res.json())
         .catch(err => res.status(400).json('Error: '+err));

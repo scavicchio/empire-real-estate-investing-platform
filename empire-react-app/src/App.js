@@ -16,8 +16,13 @@ import CreateUser from "./components/create-user.component";
 import CreateDeveloper from "./components/create-developer.component";
 import CreateUnderwriter from "./components/create-underwriter.component";
 
+import NewDevelopment from "./components/create-new-development.component";
+
+import DeveloperLaunch from "./components/developer-launch-page.component";
+import UnderwriterLaunch from "./components/underwriter-launch-page";
+
 import BuildingsList from "./components/buildings-list.component";
-import CreateBuilding from "./components/create-building.component";
+//import CreateBuilding from "./components/create-building.component";
 import LandingPage from './components/landing-page.component';
 
 
@@ -31,13 +36,18 @@ class App extends Component{
         <br/>
 
         <Route path='/user/' exact component={UsersList} />
+
+        <Route path='/buildings/add' exact component={NewDevelopment} />
         <Route path='/user/add' exact component={CreateUser} />
         <Route path='/' exact component={LandingPage} />
         <Route path='/developer/add' exact component={CreateDeveloper} />
         <Route path='/underwriter/add' exact component={CreateUnderwriter} />
 
+        <Route path='/underwriter/home' exact component={UnderwriterLaunch} />
+        <Route path='/developer/home' exact component={DeveloperLaunch} />
+
         <Route path='/buildings' exact component={BuildingsList} />
-        <Route path='/buildings/add' exact component={CreateBuilding} />
+        
         
 
 

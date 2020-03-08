@@ -31,6 +31,24 @@
   font-size: calc(24px + 2vmin);
   color: white;
 }
+
+.App-header2 {
+
+  background-color: black;
+  background-image: url('new-development-image.jpg');
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    alt:"image";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(24px + 2vmin);
+  color: white;
+}
 .Card{
   min-width: 500px;
   align-self: left;
